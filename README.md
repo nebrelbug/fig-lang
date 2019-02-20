@@ -54,6 +54,18 @@ fn fn_with_lots_of_params  (
 
 Use # for comments? Or for types?
 
+```
+// One idea
+# i32 -> i32, str
+fn returnNum (number) {
+    return 32, "string"
+}
+// And also maybe
+fn returnNum#i32 (number#i32) {
+    return 32, "string"
+}
+```
+
 Use & for mutable
 https://guide.elm-lang.org/types/type_aliases.html
 
